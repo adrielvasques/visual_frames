@@ -1,0 +1,17 @@
+# Dependências grandes (baixadas por ./instalar_dependencias.sh)
+vendor/
+
+# Build do openFrameworks
+of_void_cloud/obj/
+of_void_cloud/bin/*
+!of_void_cloud/bin/data/
+of_void_cloud/bin/data/*.xml
+
+# Modelos e mídias não usados pelo app (só yolo26n-seg e yolo26s-pose são versionados)
+modelos/*
+!modelos/yolo26n-seg.onnx
+!modelos/yolo26s-pose.onnx
+midia/
+
+__pycache__/
+*.pyc
